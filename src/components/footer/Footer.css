@@ -62,3 +62,12 @@
     padding-bottom: 10px;
     border-bottom: 4px solid transparent;
 }
+
+
+/*agregando efecto hover a los íconos*/
+.twitter:hover, 
+.instagram:hover, 
+.facebook:hover{
+    border-color: white;
+    transition: all 0.3s ease-out;
+}
