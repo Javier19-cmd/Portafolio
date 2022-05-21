@@ -60,3 +60,18 @@
     border-radius: 50%;
     margin: 20px;
 }
+
+/*Editando lo que está adentro de los botones*/
+.BrainhubCarousel__arrows > span {
+    border-color: black;
+}
+
+/*Efecto de hover*/
+.BrainhubCarousel__arrows:hover{
+    background-color: white !important;
+}
+
+/*Editando las flechas*/
+.BrainhubCarousel__arrows:hover > span{
+    border-color: black !important;
+}
