@@ -13,10 +13,19 @@ const Slider = () => {
         <div className='carousel-title'>
             <h2>Proyectos</h2>
         </div>
-
- 
+         
         <Carousel
-            plugins={['rtl', 'arrows', 'infinite']}
+            plugins={[
+                'rtl', 
+                'arrows', 
+                'infinite',
+                {
+                    resolve: autoplayPlugin,
+                    options: {
+                        interval: 2000,
+                    }
+                },
+                ]}
             infinite
             slides={Slides}
         />

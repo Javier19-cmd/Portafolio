@@ -35,3 +35,28 @@
     transform: scale(1.2);
     opacity: 0.7;
 }
+
+/*Propiedades de las descripciones*/
+.slide-desc{
+    background-color: black;
+    position: absolute;
+    bottom:0;
+    width: 70%;
+    padding-left: 30px;
+    border-top-left-radius: 20px;
+    opacity: 0.8;
+}
+
+/*Propiedades del título*/
+.slide-desc > span {
+    color: white;
+    display: block;
+    font-size: 22px;
+    padding: 20px 0 20px 10px;
+}
+
+.BrainhubCarousel__arrows{
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px;
+}
