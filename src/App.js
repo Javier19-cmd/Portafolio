@@ -3,6 +3,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import Cover from './components/cover/Cover';
 import Navbar from './components/navbar/Navbar';
+import About from './components/about/About';
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0) // Estado del scroll.
@@ -23,6 +24,7 @@ function App() {
       {/*Pasando como parámetro la posición del scroll para que se cambie */}
       <Navbar isScolling={scrollHeight} />
       <Cover />
+      <About />
     </div>
   );
 }
