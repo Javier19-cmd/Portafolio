@@ -1,3 +1,5 @@
+// Referencia del slider: https://brainhubeu.github.io/react-carousel/
+
 import React from 'react'
 import Carousel, { autoplayPlugin, slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';

@@ -1,4 +1,4 @@
-// Referencia: https://www.youtube.com/watch?v=ilw_g_rxtVc&t=3s
+// Referencia: https://www.youtube.com/watch?v=lbKs9Yklz7o&t=2s
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import Cover from './components/cover/Cover';
