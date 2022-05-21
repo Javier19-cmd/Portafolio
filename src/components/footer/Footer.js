@@ -20,15 +20,15 @@ const Footer = () => {
             </div>
 
             <div className="sns-links">
-                <a href="https://twitter.com/javiervalleb" target="_blank">
+                <a href="https://twitter.com/javiervalleb" target="_blank" rel="noreferrer">
                     <i className="fab fa-twitter twitter"></i>
                 </a>
 
-                <a href="https://www.instagram.com/javiervallebs/?hl=en" target="_blank">
+                <a href="https://www.instagram.com/javiervallebs/?hl=en" target="_blank" rel="noreferrer">
                     <i className="fab fa-instagram instagram"></i>
                 </a>
 
-                <a href="https://www.facebook.com/sebastian.valle.balsells" target="_blank">
+                <a href="https://www.facebook.com/sebastian.valle.balsells" target="_blank" rel="noreferrer">
                     <i className="fab fa-facebook facebook"></i>
                 </a>
             </div>
