@@ -28,6 +28,28 @@ const Slider = () => {
                 ]}
             infinite
             slides={Slides}
+            breakpoints={{
+                640: {
+                plugins: [
+                {
+                    resolve: slidesToShowPlugin,
+                    options: {
+                    numberOfSlides: 1
+                    }
+                },
+                ]
+                },
+                900: {
+                plugins: [
+                {
+                    resolve: slidesToShowPlugin,
+                    options: {
+                    numberOfSlides: 2
+                    }
+                },
+                ]
+                }
+            }}
         />
     </div>
   )
