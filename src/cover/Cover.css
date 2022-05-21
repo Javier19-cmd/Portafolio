@@ -1,0 +1,33 @@
+/*Propiedades del contenedor*/
+.cover-container {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Propiedades del video*/
+.video{
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+/*Propiedades del título*/
+.cover-container > h1 {
+    color: white;
+    font-size: 100px;
+}
+
+/*Propiedades del párrafo*/
+.cover-container > p{
+    margin-top: 8px;
+    color: white;
+    font-size: 32px;
+}
