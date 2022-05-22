@@ -1,11 +1,11 @@
 // Referencia: https://www.youtube.com/watch?v=lbKs9Yklz7o&t=2s
-import React, {useState, useEffect} from 'react';
-import './App.css';
-import Cover from './components/cover/Cover';
-import Navbar from './components/navbar/Navbar';
-import About from './components/about/About';
-import Slider from './components/slider/Slider';
-import Info from './components/info/Info';
+import React, {useState, useEffect} from 'react'
+import './App.css'
+import Cover from './components/cover/Cover'
+import Navbar from './components/navbar/Navbar'
+import About from './components/about/About'
+import Slider from './components/slider/Slider'
+import Info from './components/info/Info'
 import Footer from './components/footer/Footer'
 
 function App() {
@@ -13,13 +13,13 @@ function App() {
 
   // Función que controla el scroll.
   const handleScroll = () => {
-    const position = Window.pageYOffset;
+    const position = Window.pageYOffset
     setScrollHeight(position) // Setteando el scroll con respecto a la posición.
   }
 
   // Cada vez que el scroll cambie, se ejecutará el useEffect.
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
   }, [scrollHeight]) // Pasando la posición del scroll.
 
   return (
