@@ -49,6 +49,13 @@ const slidesInfo = [
         desc: "Aplicando Linting",
         link: "https://github.com/Javier19-cmd/OtrosEjemplos_React.git"
     },
+
+    {
+        src: "https://pbs.twimg.com/media/FB0xmUUWQAgyt6C?format=jpg&name=medium",
+        alt: "Clon",
+        desc: "Clonando la página de Samsung",
+        link: "https://github.com/Javier19-cmd/Proyecto-1.git"
+    }
 ]
 
 /*Creando componentes que luego se exportan al slider*/
