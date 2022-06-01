@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 
-const Navbar = ({ isScrolling }) => {
+const Navbar = () => {
 
   // Función que regresa el scroll hasta arriba
   const toTheTop = () =>{
@@ -11,7 +11,7 @@ const Navbar = ({ isScrolling }) => {
   return (
     // El scroll se inicializa en cero. Cuando esté arriba de los 20px, entonces se le cambia el nombre de la clase a scrolling. Si el scroll es menor a cero,
     // entonces se le regresa al navbar las propiedades que ya tenía antes.
-    <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
+    <nav id='NavBar' className={'navbar'}>
         <div className="navbar-logo" onClick={toTheTop}>Javier Sebastián Valle Balsells</div>
     </nav>
   )

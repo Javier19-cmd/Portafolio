@@ -9,23 +9,34 @@ import Info from './components/info/Info'
 import Footer from './components/footer/Footer'
 
 function App() {
-  const [scrollHeight, setScrollHeight] = useState(0) // Estado del scroll.
+  //const [scrollHeight, setScrollHeight] = useState(0) // Estado del scroll.
 
   // Función que controla el scroll.
   const handleScroll = () => {
-    const position = Window.pageYOffset
-    setScrollHeight(position) // Setteando el scroll con respecto a la posición.
+    const windowPosition = window.pageYOffset
+    const {offsetTop, offsetHeight} = document.getElementById('infos')
+    const offsetBottom = offsetTop + offsetHeight
+    console.log('Hola', windowPosition, offsetTop, offsetBottom)
+    if (windowPosition > offsetTop && windowPosition < offsetBottom) {
+      document.getElementById('NavBar').style.setProperty('--navbar-color', 'black')
+    }else{
+      document.getElementById('NavBar').style.setProperty('--navbar-color', 'transparent')
+    }
+    //setScrollHeight() // Setteando el scroll con respecto a la posición.
   }
 
   // Cada vez que el scroll cambie, se ejecutará el useEffect.
   useEffect(() => {
     window.addEventListener("scroll", handleScroll)
-  }, [scrollHeight]) // Pasando la posición del scroll.
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, []) // Pasando la posición del scroll.
 
   return (
     <div className="App">
       {/*Pasando como parámetro la posición del scroll para que se cambie */}
-      <Navbar isScolling={scrollHeight} />
+      <Navbar />
       <Cover />
       <About />
       <Slider />
