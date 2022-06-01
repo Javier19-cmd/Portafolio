@@ -20,7 +20,7 @@ function App() {
     if (windowPosition > offsetTop && windowPosition < offsetBottom) {
       document.getElementById('NavBar').style.setProperty('--navbar-color', 'black')
     }else{
-      document.getElementById('NavBar').style.setProperty('--navbar-color', 'transparent')
+      document.getElementById('NavBar').style.setProperty('--navbar-color', 'black')
     }
     //setScrollHeight() // Setteando el scroll con respecto a la posición.
   }
