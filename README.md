@@ -18,10 +18,12 @@ Este proyecto es útil para la comunidad para poderse dar una idea de como comen
 
 Para poder comenzar con el proyecto, lo más útil sería poder buscar distinos portafolios de programadores web, para darse una idea de como se diseñaron las páginas y cuales fueron los proyectos que estos programadores incluyeron en su presentación personal. También es útil poder buscar tutoriales de como desarrollar buenos diseños de páginas web y portafolios. Finalmente, es recomendable que el programador que desea desarrollar este proyecto tenga a la mano todos los repositorios de páginas web que haya desarollado durante su tiempo de aprendizaje y/o trabajo. Con esto, también es recomendable que en el desarrollo de su portafolio coloquen las redes sociales que más usan diariamente, así como su correo personal.
 
+Asimismo, es importante hacer la mención de que este tipo de proyectos, al estar alojados como repositorio en Github, es posible publicarlos en Github Pages, dado que al tener la versión profesional de la plataforma, hay un apartado en la configuración del repositorio, la cual permite volver todas los proyectos que usan HTML una página dentro de la plataforma. Esto es bastante útil porque, no hay necesidad de pagar el hosteo de la página programada en algún servidor como Amazon Web Services.
+
 # Dónde pueden recibir ayuda los usuarios con tu proyecto
 
 Los usuarios pueden recibir ayuda con respecto al portafolio escribiéndome al inbox de Github, así se podría acordar una cita virtual y resolver dudas.
 
 # Quién mantiene y contribuye con el proyecto
 
-Este portafolio está siendo mantenido únicamente por mí, dado que aquí es casi el único lugar en donde puedo colocar todos mis proyectos web que he desarrollado y que desarrollaré durante todo mi tiempo que esté ejerciendo este ámbito de mi profesión.
+Este portafolio está siendo mantenido únicamente por mí, dado que aquí es casi el único lugar en donde puedo colocar todos mis proyectos web que he desarrollado y que desarrollaré durante todo mi tiempo que esté ejerciendo este ámbito de mi profesión. Asimismo, es importante hacer la mención de que yo soy el único que está contribuyendo al portafolio, dado que todos los proyectos que he desarrollados son únicamente míos.
