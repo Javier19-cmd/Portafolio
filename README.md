@@ -1,38 +1,27 @@
-# Proyecto 2: Sistemas y Tecnologías Web
+# Portafolio personal 
 
-# Creando proyecto personal
+# Que hacer en caso de que se haya clonado el proyecto
 
-Para poder correr el app se debe ejecutar el comando de npm start, para que así se pueda levantar un servidor en la computadora y verlo en internet.
+Para poder correr el portafolio se debe ejecutar el comando de npm start, para que así se pueda levantar un servidor en la computadora y verlo en el navegador.
 
 La página local para ver el proyecto es: http://localhost:3000
 
 # Qué hace el proyecto
 
-Actualmente, el proyecto lo que hace es poder dar información del clima mediante un API. Asimismo, da la información de la hora, si es de día o de noche, la humedad, la velocidad del viento en el país y la velocidad del viento. Adicional a la información que brinda el API, la página web puede darle un ícono del clima en base a como se encuentre el clima en el país buscado, así como la hora del mismo.
+Este proyecto consiste en poder ver todos los proyectos web que he desarrollado a lo largo de este primer semestre del año 2022. Asimismo, se puede encontrar toda mi información personal de redes sociales, correo, imagen mía y quien soy. Este portafolio sirve para poder demostrarle a la persona que está viendo el mismo las habilidades que tengo para poder programar páginas web con html, css, javascript, algunos frameworks de javascript y ciertas tecnologías que brinda javascript. Por este mismo lado, la persona que está viendo el portafolio podrá ver mis habilidades de diseño con css.
 
 # Por qué el proyecto es útil
 
-Este proyecto es útil porque aquí se puede aprender a como consultar APIs, usar React por medio de npm-react-app y a usar Hooks. También es útil para poder entender como es que funcionan las predicciones del clima y como se le puede informar a un usuario el tipo de clima que hay. Asimismo, se puede aprender cuales son los diferentes códigos que se usan para poder clasificar el tipo de clima que hay en un país. Finalmnete, este proyecto es útil para poder practicar el css de una página web. 
+Este proyecto es útil para la comunidad para poderse dar una idea de como comenzar con su portafolio web personal. Asimismo, se pueden dar algunas ideas de que proyectos web se pueden realizar con html, css y javascript. Estos proyectos también funcionan para ver las diferentes habilidades que se pueden adquirir tras haber finalizado los mismos. Por otro lado, este portafolio es útil para poder darse una idea de como se podría iniciar a diseñar un portafolio que sea agradable a la vista de la persona que lo está consultando. 
 
 # Cómo pueden comenzar los usuarios con el proyecto
 
-Para poder comenzar este proyecto, es importante tener instalado un compilador que brinde una terminal, como lo es Visual Studio Code. Asimismo, es importante tener instalado npm y React App en la computadora del programador. También es importante que el usuario tenga a la mano esta API:  https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=fe4feefa8543e06d4f3c66d92c61b69c. También es importante que el usuario pueda ingresar a este link: https://openweathermap.org/weather-conditions, dado que durante la codificación del proyecto se estará usando una matriz que servirá para poder asignar los íconos del clima, en base a la respuesta del API.
+Para poder comenzar con el proyecto, lo más útil sería poder buscar distinos portafolios de programadores web, para darse una idea de como se diseñaron las páginas y cuales fueron los proyectos que estos programadores incluyeron en su presentación personal. También es útil poder buscar tutoriales de como desarrollar buenos diseños de páginas web y portafolios. Finalmente, es recomendable que el programador que desea desarrollar este proyecto tenga a la mano todos los repositorios de páginas web que haya desarollado durante su tiempo de aprendizaje y/o trabajo. Con esto, también es recomendable que en el desarrollo de su portafolio coloquen las redes sociales que más usan diariamente, así como su correo personal.
 
 # Dónde pueden recibir ayuda los usuarios con tu proyecto
 
-Los usuarios pueden recibir ayuda con respecto al proyecto escribiéndome al inbox de Github, así se podría acordar una cita virtual y resolver dudas.
+Los usuarios pueden recibir ayuda con respecto al portafolio escribiéndome al inbox de Github, así se podría acordar una cita virtual y resolver dudas.
 
 # Quién mantiene y contribuye con el proyecto
 
-En estos momentos, únicamente soy yo el que mantiene y contribuye al proyecto, dado que es un proyecto personal de la universidad.
-
-
-# Teconlogías que se están usando en el proyecto
-
-Para el presente proyecto, se está usando React, Axios y Styled-Components.
-
-En el caso de React, se escogió esta tecnología para poder darle una mejor y más rápida interacción al usuario con la aplicación. Asimismo, esta es una de las tecnologías encargadas para poder mantener levantado el proyecto sin ningún problema. Esta tecnología la utilizaría nuevamente para otro proyecto de web, puesto que aún se mantiene muy vigente en el ámbito del dearrollo web y de aplicaciones móviles. También es una tecnología que aún es muy mantenida por la comunidad y los desarrolladores.
-
-Axios es la tecnología que se encarga de poder mandar a traer los datos que se encuentran en el API del clima. Esta tecnología es la encargada de poder recibir toda la información que se necesita al momento de que el usuario ingresa una ciudad en donde se quiera ver el clima. Esta tecnología la utilizaría en ciertos proyectos del futuro, dado que es bastante similar al método fetch que se usa también en JavaScript. Asimismo, es una tecnología que tiene bastante documentación como videos, artículos y aún es mantenida por los propios desarrolladores y la comunidad. 
-
-Finalmente, se usó Styled-Components para poder darle estilo a todo lo visual que se encontraba en la aplicación web. Esta tecnología la usaría nuevamente para futuros proyectos que tenga que programar, dado que esta es la encargada de poder diseñar correctamente un sitio web responsive sin ningún problema. Asimismo, es una tecnología que aún sigue siendo muy respaldada por los creadores y la comunidad activa de programadores web. Por otro lado, esta es una tecnología que casi es la única en poder mantener el diseño de una página web.
+Este portafolio está siendo mantenido únicamente por mí, dado que aquí es casi el único lugar en donde puedo colocar todos mis proyectos web que he desarrollado y que desarrollaré durante todo mi tiempo que esté ejerciendo este ámbito de mi profesión.
