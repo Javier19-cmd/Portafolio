@@ -2,9 +2,10 @@
 
 # Que hacer en caso de que se haya clonado el proyecto
 
-Para poder correr el portafolio se debe ejecutar el comando de npm start, para que así se pueda levantar un servidor en la computadora y verlo en el navegador.
+Al momento de que se haya clonado el portafolio de manera local, lo que se debe haceres abrir una consola en la carpeta del proyecto o abrir la consola del compilador, en caso de que la tenga, y escribir en la npm install para poder obtener todos los módulos del proyecto. Luego, lo que se debe hacer es escribir en esa misma consola escribir npm start. El anterior comando abrirá un servidor local en el puerto 3000 de la computadora y abrirá una pestaña del navegador en donde se puede ver la página ejecutándose. 
 
-La página local para ver el proyecto es: http://localhost:3000
+La página local para ver el proyecto es: http://localhost:3000. Esto se escribe en caso de que el navegador no haya podido abrir el proyecto de manera automática.
+
 
 # Qué hace el proyecto
 
