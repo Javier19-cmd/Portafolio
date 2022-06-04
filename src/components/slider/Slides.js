@@ -47,7 +47,7 @@ const slidesInfo = [
         src: "https://www.deque.com/wp-content/uploads/2022/03/linter.png",
         alt: "Aplicando Linting a Código",
         desc: "Aplicando Linting",
-        link: "https://github.com/Javier19-cmd/OtrosEjemplos_React.git"
+        link: "https://github.com/Javier19-cmd/OtrosEjemplos_React/tree/ESLint"
     },
 
     {
